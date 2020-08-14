@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests
+@end

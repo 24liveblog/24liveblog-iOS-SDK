@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		653D8AD124E6937D0093EC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AD024E6937D0093EC45 /* AppDelegate.m */; };
+		653D8AD424E6937D0093EC45 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AD324E6937D0093EC45 /* SceneDelegate.m */; };
+		653D8AD724E6937D0093EC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AD624E6937D0093EC45 /* ViewController.m */; };
+		653D8ADA24E6937D0093EC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653D8AD824E6937D0093EC45 /* Main.storyboard */; };
+		653D8ADC24E6937F0093EC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653D8ADB24E6937F0093EC45 /* Assets.xcassets */; };
+		653D8ADF24E6937F0093EC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653D8ADD24E6937F0093EC45 /* LaunchScreen.storyboard */; };
+		653D8AE224E6937F0093EC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AE124E6937F0093EC45 /* main.m */; };
+		653D8AEC24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AEB24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m */; };
+		653D8AF724E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AF624E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m */; };
+		653D8B0524E698380093EC45 /* 24LiveBlogBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */; };
+		690B9F33116400687DB7E157 /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C110131518AAB57C92956BF /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework */; };
+		B757CDCE66E9CBA1B294D6EC /* Pods_24liveblog_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C02CD6D36E2B4795FFD8AF /* Pods_24liveblog_iOS_SDK_DemoTests.framework */; };
+		F82EB6F11C7B3BC693947270 /* Pods_24liveblog_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD7A388C412272D87B5E0A4 /* Pods_24liveblog_iOS_SDK_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653D8AE824E6937F0093EC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653D8AC424E6937D0093EC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653D8ACB24E6937D0093EC45;
+			remoteInfo = "24liveblog-iOS-SDK-Demo";
+		};
+		653D8AF324E6937F0093EC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653D8AC424E6937D0093EC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653D8ACB24E6937D0093EC45;
+			remoteInfo = "24liveblog-iOS-SDK-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF9C7D86E38218DF3EF1905 /* Pods-24liveblog-iOS-SDK-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-DemoTests/Pods-24liveblog-iOS-SDK-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2696920A635B8D8F029C9BCD /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34508F503B2EAB3C2A6A7BCB /* Pods-24liveblog-iOS-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		3C110131518AAB57C92956BF /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49473671B54F77069A3B980F /* Pods-24liveblog-iOS-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-DemoTests/Pods-24liveblog-iOS-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		653D8ACC24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24liveblog-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D8ACF24E6937D0093EC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		653D8AD024E6937D0093EC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		653D8AD224E6937D0093EC45 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		653D8AD324E6937D0093EC45 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		653D8AD524E6937D0093EC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		653D8AD624E6937D0093EC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		653D8AD924E6937D0093EC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		653D8ADB24E6937F0093EC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653D8ADE24E6937F0093EC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		653D8AE024E6937F0093EC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D8AE124E6937F0093EC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		653D8AE724E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "24liveblog-iOS-SDK-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D8AEB24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4liveblog_iOS_SDK_DemoTests.m; sourceTree = "<group>"; };
+		653D8AED24E6937F0093EC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D8AF224E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "24liveblog-iOS-SDK-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		653D8AF624E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4liveblog_iOS_SDK_DemoUITests.m; sourceTree = "<group>"; };
+		653D8AF824E6937F0093EC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 24LiveBlogBundle.bundle; sourceTree = "<group>"; };
+		6FD7A388C412272D87B5E0A4 /* Pods_24liveblog_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB5B3A00F787FEA723A87FE /* Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		C133854425623FC3CF728BD0 /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0C02CD6D36E2B4795FFD8AF /* Pods_24liveblog_iOS_SDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653D8AC924E6937D0093EC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82EB6F11C7B3BC693947270 /* Pods_24liveblog_iOS_SDK_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AE424E6937F0093EC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B757CDCE66E9CBA1B294D6EC /* Pods_24liveblog_iOS_SDK_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AEF24E6937F0093EC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690B9F33116400687DB7E157 /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		653D8AC324E6937D0093EC45 = {
+			isa = PBXGroup;
+			children = (
+				653D8ACE24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */,
+				653D8AEA24E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests */,
+				653D8AF524E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests */,
+				653D8ACD24E6937D0093EC45 /* Products */,
+				693AE29327B84C603B01A96D /* Pods */,
+				A2CA5289CD94DCF897B227C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		653D8ACD24E6937D0093EC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653D8ACC24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo.app */,
+				653D8AE724E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests.xctest */,
+				653D8AF224E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653D8ACE24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */,
+				653D8ACF24E6937D0093EC45 /* AppDelegate.h */,
+				653D8AD024E6937D0093EC45 /* AppDelegate.m */,
+				653D8AD224E6937D0093EC45 /* SceneDelegate.h */,
+				653D8AD324E6937D0093EC45 /* SceneDelegate.m */,
+				653D8AD524E6937D0093EC45 /* ViewController.h */,
+				653D8AD624E6937D0093EC45 /* ViewController.m */,
+				653D8AD824E6937D0093EC45 /* Main.storyboard */,
+				653D8ADB24E6937F0093EC45 /* Assets.xcassets */,
+				653D8ADD24E6937F0093EC45 /* LaunchScreen.storyboard */,
+				653D8AE024E6937F0093EC45 /* Info.plist */,
+				653D8AE124E6937F0093EC45 /* main.m */,
+			);
+			path = "24liveblog-iOS-SDK-Demo";
+			sourceTree = "<group>";
+		};
+		653D8AEA24E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				653D8AEB24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m */,
+				653D8AED24E6937F0093EC45 /* Info.plist */,
+			);
+			path = "24liveblog-iOS-SDK-DemoTests";
+			sourceTree = "<group>";
+		};
+		653D8AF524E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653D8AF624E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m */,
+				653D8AF824E6937F0093EC45 /* Info.plist */,
+			);
+			path = "24liveblog-iOS-SDK-DemoUITests";
+			sourceTree = "<group>";
+		};
+		693AE29327B84C603B01A96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FB5B3A00F787FEA723A87FE /* Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig */,
+				34508F503B2EAB3C2A6A7BCB /* Pods-24liveblog-iOS-SDK-Demo.release.xcconfig */,
+				2696920A635B8D8F029C9BCD /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.debug.xcconfig */,
+				C133854425623FC3CF728BD0 /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig */,
+				1BF9C7D86E38218DF3EF1905 /* Pods-24liveblog-iOS-SDK-DemoTests.debug.xcconfig */,
+				49473671B54F77069A3B980F /* Pods-24liveblog-iOS-SDK-DemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2CA5289CD94DCF897B227C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD7A388C412272D87B5E0A4 /* Pods_24liveblog_iOS_SDK_Demo.framework */,
+				3C110131518AAB57C92956BF /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework */,
+				D0C02CD6D36E2B4795FFD8AF /* Pods_24liveblog_iOS_SDK_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653D8ACB24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D8AFB24E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-Demo" */;
+			buildPhases = (
+				458BD7CD420D0ADAA2E104A7 /* [CP] Check Pods Manifest.lock */,
+				653D8AC824E6937D0093EC45 /* Sources */,
+				653D8AC924E6937D0093EC45 /* Frameworks */,
+				653D8ACA24E6937D0093EC45 /* Resources */,
+				80212C8004FA44216CA24DDB /* [CP] Embed Pods Frameworks */,
+				44E4B8981A16EBB338E8281D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24liveblog-iOS-SDK-Demo";
+			productName = "24liveblog-iOS-SDK-Demo";
+			productReference = 653D8ACC24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653D8AE624E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D8AFE24E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-DemoTests" */;
+			buildPhases = (
+				FEAD39169317FE53E49379C4 /* [CP] Check Pods Manifest.lock */,
+				653D8AE324E6937F0093EC45 /* Sources */,
+				653D8AE424E6937F0093EC45 /* Frameworks */,
+				653D8AE524E6937F0093EC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653D8AE924E6937F0093EC45 /* PBXTargetDependency */,
+			);
+			name = "24liveblog-iOS-SDK-DemoTests";
+			productName = "24liveblog-iOS-SDK-DemoTests";
+			productReference = 653D8AE724E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		653D8AF124E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D8B0124E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-DemoUITests" */;
+			buildPhases = (
+				D34D9E935BCAD6D8CF99DD26 /* [CP] Check Pods Manifest.lock */,
+				653D8AEE24E6937F0093EC45 /* Sources */,
+				653D8AEF24E6937F0093EC45 /* Frameworks */,
+				653D8AF024E6937F0093EC45 /* Resources */,
+				85FF8A0EC31C41DB80C1E9F6 /* [CP] Embed Pods Frameworks */,
+				EC9B0DC88C2E4A75962278B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653D8AF424E6937F0093EC45 /* PBXTargetDependency */,
+			);
+			name = "24liveblog-iOS-SDK-DemoUITests";
+			productName = "24liveblog-iOS-SDK-DemoUITests";
+			productReference = 653D8AF224E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653D8AC424E6937D0093EC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Rookie;
+				TargetAttributes = {
+					653D8ACB24E6937D0093EC45 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					653D8AE624E6937F0093EC45 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 653D8ACB24E6937D0093EC45;
+					};
+					653D8AF124E6937F0093EC45 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 653D8ACB24E6937D0093EC45;
+					};
+				};
+			};
+			buildConfigurationList = 653D8AC724E6937D0093EC45 /* Build configuration list for PBXProject "24liveblog-iOS-SDK-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 653D8AC324E6937D0093EC45;
+			productRefGroup = 653D8ACD24E6937D0093EC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653D8ACB24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */,
+				653D8AE624E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoTests */,
+				653D8AF124E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653D8ACA24E6937D0093EC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D8ADF24E6937F0093EC45 /* LaunchScreen.storyboard in Resources */,
+				653D8ADC24E6937F0093EC45 /* Assets.xcassets in Resources */,
+				653D8ADA24E6937D0093EC45 /* Main.storyboard in Resources */,
+				653D8B0524E698380093EC45 /* 24LiveBlogBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AE524E6937F0093EC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AF024E6937F0093EC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E4B8981A16EBB338E8281D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458BD7CD420D0ADAA2E104A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-24liveblog-iOS-SDK-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80212C8004FA44216CA24DDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FF8A0EC31C41DB80C1E9F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34D9E935BCAD6D8CF99DD26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9B0DC88C2E4A75962278B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAD39169317FE53E49379C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-24liveblog-iOS-SDK-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653D8AC824E6937D0093EC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D8AD724E6937D0093EC45 /* ViewController.m in Sources */,
+				653D8AD124E6937D0093EC45 /* AppDelegate.m in Sources */,
+				653D8AE224E6937F0093EC45 /* main.m in Sources */,
+				653D8AD424E6937D0093EC45 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AE324E6937F0093EC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D8AEC24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653D8AEE24E6937F0093EC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653D8AF724E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		653D8AE924E6937F0093EC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653D8ACB24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */;
+			targetProxy = 653D8AE824E6937F0093EC45 /* PBXContainerItemProxy */;
+		};
+		653D8AF424E6937F0093EC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653D8ACB24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */;
+			targetProxy = 653D8AF324E6937F0093EC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		653D8AD824E6937D0093EC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653D8AD924E6937D0093EC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		653D8ADD24E6937F0093EC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653D8ADE24E6937F0093EC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		653D8AF924E6937F0093EC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		653D8AFA24E6937F0093EC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653D8AFC24E6937F0093EC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB5B3A00F787FEA723A87FE /* Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3259YVRKR7;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653D8AFD24E6937F0093EC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34508F503B2EAB3C2A6A7BCB /* Pods-24liveblog-iOS-SDK-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3259YVRKR7;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		653D8AFF24E6937F0093EC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF9C7D86E38218DF3EF1905 /* Pods-24liveblog-iOS-SDK-DemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/24liveblog-iOS-SDK-Demo.app/24liveblog-iOS-SDK-Demo";
+			};
+			name = Debug;
+		};
+		653D8B0024E6937F0093EC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49473671B54F77069A3B980F /* Pods-24liveblog-iOS-SDK-DemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/24liveblog-iOS-SDK-Demo.app/24liveblog-iOS-SDK-Demo";
+			};
+			name = Release;
+		};
+		653D8B0224E6937F0093EC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2696920A635B8D8F029C9BCD /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "24liveblog-iOS-SDK-Demo";
+			};
+			name = Debug;
+		};
+		653D8B0324E6937F0093EC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C133854425623FC3CF728BD0 /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "24liveblog-iOS-SDK-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.-4liveblog-iOS-SDK-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "24liveblog-iOS-SDK-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653D8AC724E6937D0093EC45 /* Build configuration list for PBXProject "24liveblog-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D8AF924E6937F0093EC45 /* Debug */,
+				653D8AFA24E6937F0093EC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D8AFB24E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D8AFC24E6937F0093EC45 /* Debug */,
+				653D8AFD24E6937F0093EC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D8AFE24E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D8AFF24E6937F0093EC45 /* Debug */,
+				653D8B0024E6937F0093EC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D8B0124E6937F0093EC45 /* Build configuration list for PBXNativeTarget "24liveblog-iOS-SDK-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653D8B0224E6937F0093EC45 /* Debug */,
+				653D8B0324E6937F0093EC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653D8AC424E6937D0093EC45 /* Project object */;
+}
