@@ -4,21 +4,13 @@ Integrate live blog into your iOS client applications with speed and efficiency.
 
 
 - [Requirements](#requirements)
-- [Sample](#sample)
 - [LiveBlog](#liveblog)
 - [Getting Help](#help)
 - [License](#license)
 
 <a name="requirements"></a>
 # Requirements
- - **Minimum iOS SDK**: 24liveblog Sdk requires a minimum API level of 21.
- - **Compile iOS SDK**: 24liveblog Sdk requires you to compile against API 29 or later.
- - **Java 8 support.
-
-<a name="sample"></a>
-# Sample
-A [sample](sample) application is available that showcases the majority of the features offered by
-the 24liveblog SDK.
+ - **Minimum iOS Target**: 9.0
 
 
 <a name="liveblog"></a>
@@ -30,28 +22,33 @@ Integrate the live blog in real time into your iOS client applications with spee
 
 #### Step 1: Install the Live Blog SDK
 
-Installing the Live Blog SDK is simple if you’re familiar with using external libraries or SDKs. To install the Live Blog SDK using `Gradle`, add the following lines to a `build.gradle` file at the app level.
+24liveblog-iOS-SDK is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod '24liveblog-iOS-SDK'
 
 ```
 
-````
+#### Step 2: Load Bundle File
 
-#### Step 2: Configure ProGuard to shrink code and resources
-When you build your APK with minifyEnabled true, add the following line to the module's ProGuard rules file.
-```
-
-```
+Move `24LiveBlogBundle.Bundle` from the Demo project to your project.
 
 #### Step 3: Start SDK
-To initialize the sdk it is necessary to add the LiveBlog in the xml:
 
 ```
-
+#import <LiveBlogFramework/liveBlogView.h>
 ```
 
 And start the event watcher by passing the following parameters:
-```
 
+```
+	NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"24LiveBlogBundle" ofType:@"bundle"];
+    UINib *nib = [UINib nibWithNibName:@"liveBlogView" bundle:[NSBundle bundleWithPath:bundlePath]];
+    liveBlogView *liveBlogView = [[nib instantiateWithOwner:nil options:nil] firstObject];
+    liveBlogView.frame = CGRectMake(0, 64,kScreenWidth, kScreenHeight - 64);
+    liveBlogView.eid = @"EVENT_ID"; // Your Event ID
+    [self.view addSubview:liveBlogView];
 ```
 
 *  `EVENT_ID`: Live blog event identifier
