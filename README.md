@@ -43,7 +43,7 @@ Move `24LiveBlogBundle.Bundle` from the Demo project to your project.
 And start the event watcher by passing the following parameters:
 
 ```
-	NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"24LiveBlogBundle" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"24LiveBlogBundle" ofType:@"bundle"];
     UINib *nib = [UINib nibWithNibName:@"liveBlogView" bundle:[NSBundle bundleWithPath:bundlePath]];
     liveBlogView *liveBlogView = [[nib instantiateWithOwner:nil options:nil] firstObject];
     liveBlogView.frame = CGRectMake(0, 64,kScreenWidth, kScreenHeight - 64);
