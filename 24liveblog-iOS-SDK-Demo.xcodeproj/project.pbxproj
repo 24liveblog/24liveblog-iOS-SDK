@@ -16,7 +16,7 @@
 		653D8AE224E6937F0093EC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AE124E6937F0093EC45 /* main.m */; };
 		653D8AEC24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AEB24E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoTests.m */; };
 		653D8AF724E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 653D8AF624E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m */; };
-		653D8B0524E698380093EC45 /* 24LiveBlogBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */; };
+		6586713824ED01E000DE8881 /* 24LiveBlogBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6586713724ED01E000DE8881 /* 24LiveBlogBundle.bundle */; };
 		690B9F33116400687DB7E157 /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C110131518AAB57C92956BF /* Pods_24liveblog_iOS_SDK_Demo_24liveblog_iOS_SDK_DemoUITests.framework */; };
 		B757CDCE66E9CBA1B294D6EC /* Pods_24liveblog_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C02CD6D36E2B4795FFD8AF /* Pods_24liveblog_iOS_SDK_DemoTests.framework */; };
 		F82EB6F11C7B3BC693947270 /* Pods_24liveblog_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD7A388C412272D87B5E0A4 /* Pods_24liveblog_iOS_SDK_Demo.framework */; };
@@ -63,7 +63,7 @@
 		653D8AF224E6937F0093EC45 /* 24liveblog-iOS-SDK-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "24liveblog-iOS-SDK-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		653D8AF624E6937F0093EC45 /* _4liveblog_iOS_SDK_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4liveblog_iOS_SDK_DemoUITests.m; sourceTree = "<group>"; };
 		653D8AF824E6937F0093EC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 24LiveBlogBundle.bundle; sourceTree = "<group>"; };
+		6586713724ED01E000DE8881 /* 24LiveBlogBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 24LiveBlogBundle.bundle; sourceTree = "<group>"; };
 		6FD7A388C412272D87B5E0A4 /* Pods_24liveblog_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24liveblog_iOS_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB5B3A00F787FEA723A87FE /* Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo/Pods-24liveblog-iOS-SDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C133854425623FC3CF728BD0 /* Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests/Pods-24liveblog-iOS-SDK-Demo-24liveblog-iOS-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		653D8ACE24E6937D0093EC45 /* 24liveblog-iOS-SDK-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				653D8B0424E698380093EC45 /* 24LiveBlogBundle.bundle */,
 				653D8ACF24E6937D0093EC45 /* AppDelegate.h */,
 				653D8AD024E6937D0093EC45 /* AppDelegate.m */,
+				6586713724ED01E000DE8881 /* 24LiveBlogBundle.bundle */,
 				653D8AD224E6937D0093EC45 /* SceneDelegate.h */,
 				653D8AD324E6937D0093EC45 /* SceneDelegate.m */,
 				653D8AD524E6937D0093EC45 /* ViewController.h */,
@@ -293,7 +293,7 @@
 				653D8ADF24E6937F0093EC45 /* LaunchScreen.storyboard in Resources */,
 				653D8ADC24E6937F0093EC45 /* Assets.xcassets in Resources */,
 				653D8ADA24E6937D0093EC45 /* Main.storyboard in Resources */,
-				653D8B0524E698380093EC45 /* 24LiveBlogBundle.bundle in Resources */,
+				6586713824ED01E000DE8881 /* 24LiveBlogBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +630,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3259YVRKR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/24liveblog-iOS-SDK-Demo",
+				);
 				INFOPLIST_FILE = "24liveblog-iOS-SDK-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -649,6 +653,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3259YVRKR7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/24liveblog-iOS-SDK-Demo",
+				);
 				INFOPLIST_FILE = "24liveblog-iOS-SDK-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
